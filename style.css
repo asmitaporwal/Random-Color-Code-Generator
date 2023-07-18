@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 5rem auto;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#codeBox {
+    display: none;
+}
+
+
+
+#code {
+    width: auto;
+    margin: 2rem;
+    background-color: black;
+    color: skyblue;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    width: auto;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    color: red;
+}

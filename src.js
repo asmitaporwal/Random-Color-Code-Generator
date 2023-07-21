@@ -3,7 +3,9 @@ var bgBody = document.getElementById('main');
 function copyCode() {
     let copyText = document.getElementById('code').textContent;
     navigator.clipboard.writeText(copyText);
-    alert('Copied the text: ' + copyText);
+    const copyBtn = document.getElementById('copyBtn');
+    copyBtn.textContent = 'Copied';
+    setTimeout(() => { copyBtn.textContent = 'Copy' }, 3000);
 }
 //hex color code generator function
 function hexColorCodeGenerator() {
